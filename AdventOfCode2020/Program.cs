@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoreLinq;
+using System;
 
 namespace AdventOfCode2020
 {
@@ -6,8 +7,9 @@ namespace AdventOfCode2020
     {
         static void Main(string[] args)
         {
-            DayFour.ChallengeOne();
-            DayFour.ChallengeTwo();
+
+            DayFive.ChallengeOne();
+            DayFive.ChallengeTwo();
             Console.Read();
         }
     }
